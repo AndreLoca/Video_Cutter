@@ -61,11 +61,6 @@ def main():
     
     if not isfile(video_timestamp):
         exit
-    
-    print(video_path)
-    print(video_timestamp)
-    print(folder_path_cutted_video)
-
     cut_video(video_path.replace(' ', '\ '), video_timestamp, folder_path_cutted_video)
 
 if __name__ == "__main__":
